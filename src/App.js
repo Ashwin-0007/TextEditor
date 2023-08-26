@@ -53,7 +53,7 @@ function App() {
      {/* <BrowserRouter> */}
            {/* <Navbar title = "TextUtils" about = "About Us"/> */}
            {/* <Navbar/> */}
-           <Navbar title = "TextEditor" mode={mode} toggleMode={toggleMode} />
+           <Navbar title = "TextUtils" mode={mode} toggleMode={toggleMode} />
            <Alert alert={alert}/>
       <div className="container my-3">
         <TextForm showAlert = {showAlert} heading = "Enter Text To Analyze" mode={mode}/>
